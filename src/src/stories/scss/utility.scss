@@ -1,0 +1,51 @@
+.container-lg {
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.sp-only {
+	display: none;
+}
+
+.pc-only {
+	display: block;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.inline {
+	display: inline;
+}
+
+.flex {
+	display: flex;
+}
+
+.grid {
+	display: grid;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (max-width:769px) {
+	.sp-only {
+		display: block;
+	}
+
+	.pc-only {
+		display: none;
+	}
+}
