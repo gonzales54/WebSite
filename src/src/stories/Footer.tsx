@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import TwitterIcon from './assets/twitter.png'
+=======
+>>>>>>> ed2591bd9749c434405703836a00a307d3c7e389
 import './reset.css'
 
 const Footer = () => {
 	return (
+<<<<<<< HEAD
 		<footer className='footer'>
 			<div className="container-md">
 				<div className='footer-content'>
@@ -42,6 +46,9 @@ const Footer = () => {
 				</p>
 			</div>
 		</footer>
+=======
+		<footer><h1>Footer</h1></footer>
+>>>>>>> ed2591bd9749c434405703836a00a307d3c7e389
 	)
 }
 
