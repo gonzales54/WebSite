@@ -1,0 +1,32 @@
+.footer-content {
+	.footer-container {
+		margin-bottom: 2rem;
+	}
+}
+
+.social {
+	.social-container {
+		margin-bottom: 1.25rem;
+	}
+}
+
+@media screen and (max-width:769px) {
+	.nav {
+		width: 15rem;
+		height: 100vh;
+		padding: 3.5rem 0 0 0;
+		position: absolute;
+		top: 0;
+		right: -15rem;
+		background-color: rgba(#f9fafb, 0.7);
+		z-index: 5;
+		transition: .5s;
+		.flex {
+			flex-direction: column;
+		}
+	}
+
+	.nav-open {
+		right: 0;
+	}
+}

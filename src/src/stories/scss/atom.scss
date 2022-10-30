@@ -1,0 +1,65 @@
+.logo {
+	padding: 1rem;
+	font-size: 1.25rem;
+}
+
+.nav-btn {
+	z-index: 6;
+}
+
+.nav-icon {
+	width: 24px;
+	height: 24px;
+}
+
+.nav-item {}
+
+.nav-link {
+	padding: 1rem 1.25rem;
+	font-size: 0.95rem;
+}
+
+.small {
+	text-align: center;
+	small {
+
+	}
+}
+
+.footer-logo {
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight:700;
+}
+
+.footer-link {
+	padding: 1rem 1.25rem;
+}
+
+.social-title {
+	margin-bottom: 2rem;
+	text-align: center;
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.social-link {
+	width: 3rem;
+	height: 3rem;
+	background-color: #f8fafc;
+	border-radius: 50%;
+	.social-icon {
+		padding: 0.5rem 0;
+		img {
+			width: 2rem;
+			height: 2rem;
+			margin: 0 auto;
+		}		
+	}
+}
+@media screen and (max-width:769px) {
+	.nav-link {
+		padding: 1.5rem;
+	}
+}

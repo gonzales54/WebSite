@@ -1,12 +1,13 @@
-function App() {
+import HeaderComponent from "./components/HeaderComponent"
+import MainComponent from "./components/MainComponent"
+import FooterComponent from "./components/FooterComponent"
 
+function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Hello</h1>
-      </header>
-      <main>1</main>
-      <footer>1</footer>
+      <HeaderComponent/>
+      <MainComponent/>
+      <FooterComponent/>
     </div>
   )
 }
