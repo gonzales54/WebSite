@@ -11,6 +11,10 @@ const Main = () => {
 			</section>
 			<section className='container-sm'>
 				<h2 className='section-title'>About</h2>
+				<p>
+					このサイトは作ったアプリやサイトなどを載せるポートフォリオサイトです。
+					React、Vue、Laravel、PHP、TypeScript等について勉強しています。
+				</p>
 			</section>
 			<section className='container-sm'>
 				<h2 className='section-title'>Work</h2>
