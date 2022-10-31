@@ -9,15 +9,56 @@ const Main = () => {
 					<p className='sub-title'>Studying Software-Engineering</p>
 				</div>
 			</section>
-			<section className='container-sm'>
-				<h2 className='section-title'>About</h2>
-				<p>
-					このサイトは作ったアプリやサイトなどを載せるポートフォリオサイトです。
-					React、Vue、Laravel、PHP、TypeScript等について勉強しています。
-				</p>
+			<section className='about flex justify-center align-items-center container-md'>
+				<div>
+					<h2 className='section-title'>About</h2>
+					<p className='about-content'>
+						このサイトは作ったアプリやサイトなどを載せるポートフォリオサイトです。<br />
+						React、Vue、Laravel、PHP、TypeScript等について勉強しています。
+					</p>
+				</div>
 			</section>
-			<section className='container-sm'>
+			<section className='work container-lg'>
 				<h2 className='section-title'>Work</h2>
+				<ul className='grid'>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div className='work-item'></div>
+							<h3 className='work-item-title'>title-link</h3>
+						</a>
+					</li>
+				</ul>
+				<a href="" className='work-link'>制作したアプリやサイト一覧</a>
 			</section>
 		</main>
 	)

@@ -54,16 +54,16 @@
 	align-items: center;
 }
 
-.hidden {
-	display: none;
-}
-
-@media screen and (max-width:769px) {
+@media screen and (max-width:821px) {
 	.sp-only {
 		display: block;
 	}
 
 	.pc-only {
 		display: none;
+	}
+
+	.container-lg, .container-md, .container-sm {
+		width: 92.5%;
 	}
 }

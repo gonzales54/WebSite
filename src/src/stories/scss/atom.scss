@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500&display=swap');
+
 * {
 	font-size: 100%;
 	line-height: 1;
+	font-family: 'Shippori Mincho B1', serif;
 }
 
 .logo {
 	padding: 1rem 0;
 	font-size: 1.25rem;
 	font-weight: 600;
+	transition: .5s;
+	&:hover {
+		color: rgba(#374151, 0.5);
+	}
 }
 
 .nav-btn {
@@ -25,6 +32,10 @@
 	padding: 1rem 1.25rem;
 	font-size: 0.95rem;
 	font-weight: 500;
+	transition: .5s;
+	&:hover {
+		color: rgba(#374151, 0.5);
+	}
 }
 
 .main-title {
@@ -41,8 +52,30 @@
 }
 
 .section-title {
+	margin-bottom: 2.5rem;
 	text-align: center;
 	font-size: 2.5rem;
+}
+
+.about-content {
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: 'Shippori Mincho B1', serif;
+	line-height: 1.5;
+}
+
+.work-item-title {
+	padding: 0.55rem 0;
+	font-size: 1rem;
+	text-align: center;
+}
+
+.work-link {
+	color: #fca5a5;
+	transition: .3s;
+	&:hover {
+		color: rgba(#374151, 0.8);
+	}
 }
 
 .small {
@@ -54,10 +87,18 @@
 	text-align: center;
 	font-size: 1.5rem;
 	font-weight:600;
+	transition: .5s;
+	&:hover {
+		color: rgba(#f8fafc, 0.6);
+	}
 }
 
 .footer-link {
 	padding: 1rem 1.25rem;
+	transition: .5s;
+	&:hover {
+		color: rgba(#f8fafc, 0.6);
+	}
 }
 
 .social-title {
@@ -72,24 +113,63 @@
 	height: 3rem;
 	background-color: #f8fafc;
 	border-radius: 50%;
+	&:hover {
+		color: rgba(#f8fafc, 0.6);
+	}
 	.social-icon {
 		padding: 0.5rem 0;
 		img {
 			width: 2rem;
 			height: 2rem;
 			margin: 0 auto;
+			transition: .5s;
+			&:hover {
+				opacity: .7;
+			}
 		}		
 	}
 }
-@media screen and (max-width:769px) {
+@media screen and (max-width:821px) {
 	.nav-link {
 		padding: 1.5rem;
 	}
+
 	.nav-item {
 
 	}
 
 	.nav-link {
 		padding: 1rem 1.25rem;
+	}
+
+	.work-item-title {
+		padding: 1rem 0.75rem;
+		font-size: 1rem;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 415px) {
+	.main-title {
+		margin-bottom: 1.25rem;
+		color: #fafafa;
+		font-size: 3.5rem;
+		font-weight: 700;
+	}
+
+	.sub-title {
+		color: #fafafa;
+		font-size: 1rem;
+		font-weight: 500;
+	}
+
+	.section-title {
+		margin-bottom: 2rem;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+	.about-content {
+		font-size: 1rem;
 	}
 }

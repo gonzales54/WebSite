@@ -3,17 +3,15 @@ import './scss/utility.scss'
 import './scss/atom.scss'
 import './scss/molecules.scss'
 import './scss/organisms.scss'
-import { useState } from 'react'
 
-const Header = () => {
-	const [isNavOpen, setNavOpen] = useState(false);
+const Header = ({isNavOpen, navOpen}: any) => {
 	return (
 		<header className='header'>
 			<div className='container-lg flex justify-between align-items-center'>
 				<h1>
 					<a href="" className='block logo'>Itokawa</a>
 				</h1>
-				<button className='nav-btn sp-only' onClick={() => {setNavOpen(!isNavOpen)}}>
+				<button className='nav-btn sp-only' onClick={navOpen}>
 					{isNavOpen 
 					? 
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="nav-icon">
