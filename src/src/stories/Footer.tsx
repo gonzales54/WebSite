@@ -38,7 +38,7 @@ const Footer = () => {
 					</div>			
 				</div>
 				<p className='small'>
-					<small>Made By Itokawa</small>
+					<small>&copy; Made By Itokawa</small>
 				</p>
 			</div>
 		</footer>

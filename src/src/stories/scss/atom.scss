@@ -1,6 +1,12 @@
+* {
+	font-size: 100%;
+	line-height: 1;
+}
+
 .logo {
-	padding: 1rem;
+	padding: 1rem 0;
 	font-size: 1.25rem;
+	font-weight: 600;
 }
 
 .nav-btn {
@@ -18,20 +24,36 @@
 .nav-link {
 	padding: 1rem 1.25rem;
 	font-size: 0.95rem;
+	font-weight: 500;
+}
+
+.main-title {
+	margin-bottom: 1.5rem;
+	color: #fafafa;
+	font-size: 4rem;
+	font-weight: 800;
+}
+
+.sub-title {
+	color: #fafafa;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 2.5rem;
 }
 
 .small {
 	text-align: center;
-	small {
-
-	}
 }
 
 .footer-logo {
 	margin-bottom: 2rem;
 	text-align: center;
 	font-size: 1.5rem;
-	font-weight:700;
+	font-weight:600;
 }
 
 .footer-link {
@@ -39,10 +61,10 @@
 }
 
 .social-title {
-	margin-bottom: 2rem;
+	margin-bottom: 1.25rem;
 	text-align: center;
 	font-size: 1.25rem;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .social-link {
