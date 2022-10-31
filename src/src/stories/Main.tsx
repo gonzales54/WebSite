@@ -9,17 +9,11 @@ const Main = () => {
 					<p className='sub-title'>Studying Software-Engineering</p>
 				</div>
 			</section>
-			<section className='container-lg'>
+			<section className='container-sm'>
 				<h2 className='section-title'>About</h2>
 			</section>
-			<section className='container-lg'>
+			<section className='container-sm'>
 				<h2 className='section-title'>Work</h2>
-			</section>
-			<section className='container-lg'>
-				<h2 className='section-title'>Work</h2>
-			</section>
-			<section className='container-lg'>
-				<h2 className='section-title'>Contact</h2>
 			</section>
 		</main>
 	)

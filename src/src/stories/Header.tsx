@@ -36,12 +36,6 @@ const Header = () => {
 						<li className='nav-item'>
 							<a href="" className='block nav-link'>Work</a>
 						</li>
-						<li className='nav-item'>
-							<a href="" className='block nav-link'>Skill</a>
-						</li>
-						<li className='nav-item'>
-							<a href="" className='block nav-link'>Contact</a>
-						</li>
 					</ul>
 				</nav>
 			</div>
