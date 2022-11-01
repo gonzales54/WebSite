@@ -19,7 +19,7 @@ function App() {
       document.body.style.overflow = "hidden";
     }
   }
-  const work = [
+  const workItem = [
     {
       title: 'react-website',
       image: WebSiteImageURL,
@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <HeaderComponent isNavOpen={isNavOpen} navOpen={navOpen} />
-      <MainComponent />
+      <MainComponent workItem={workItem} />
       <FooterComponent/>
     </div>
   )
