@@ -12,6 +12,7 @@
 			position: relative;
 			text-align: center;
 			clip-path: inset(0);
+			z-index: 5;
 			&::before {
 				content: "";
 				background: url('../assets/background.jpg') no-repeat;
