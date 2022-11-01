@@ -1,0 +1,22 @@
+.header {
+	width: 100%;
+	position: fixed;
+	background: #fafafa;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.main {
+	width: 100%;
+	min-height: 100vh;
+	padding: 3.5rem 0 0 0;
+	z-index: 4;
+}
+
+
+.footer {
+	width: 100%;
+	height: auto;
+	padding: 1.25rem 0;
+	color: #f1f5f9;
+	background-color: #1f2937;
+}

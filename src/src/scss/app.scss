@@ -1,3 +1,4 @@
-h1 {
-	color: red;
-}
+@use './utility.scss';
+@use './atom.scss';
+@use './molecules.scss';
+@use './organisms.scss';
