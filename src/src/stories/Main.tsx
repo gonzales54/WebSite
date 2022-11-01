@@ -1,6 +1,6 @@
 import './reset.css'
 
-const Main = ({isNavOpen}: any) => {
+const Main = ({isNavOpen, workItem}: any) => {
 	return (
 		<main className={isNavOpen ? 'main main-open' : 'main'}>
 			<section className='main-visual flex justify-center align-items-center'>
@@ -20,45 +20,24 @@ const Main = ({isNavOpen}: any) => {
 			</section>
 			<section className='work container-lg'>
 				<h2 className='section-title'>Work</h2>
-				<ul className='grid'>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<div className='work-item'></div>
-							<h3 className='work-item-title'>title-link</h3>
-						</a>
-					</li>
+				<ul className='grid' style={{ gridTemplateRows: workItem.length > 3 ?  '1fr 1fr' : '1fr' }}>
+					{
+						workItem.map((item: any) => (
+							<li key={item.title}>
+								<a href={item.url}>
+									<div className='work-item' style={{ backgroundImage: `url(${item.image})` }}></div>
+									<h3 className='work-item-title'>{item.title}</h3>
+								</a>
+							</li>
+						))
+					}
 				</ul>
-				<a href="" className='work-link'>制作したアプリやサイト一覧</a>
+				{workItem.lengt > 6 
+				?
+				<a href="" className='work-link'>制作したアプリやサイト一覧</a> 
+				: 
+				""
+				}
 			</section>
 		</main>
 	)
