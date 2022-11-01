@@ -11,7 +11,7 @@
 			min-height: calc(100vh - 3.5rem);
 			position: relative;
 			text-align: center;
-			z-index: -1;
+			clip-path: inset(0);
 			&::before {
 				content: "";
 				background: url('../assets/background.jpg') no-repeat;
@@ -22,6 +22,7 @@
 				right: 0;
 				bottom: 0;
 				left: 0;
+				z-index: -1;
 			}
 		}
 	}
