@@ -22,7 +22,7 @@ const Footer = () => {
 					<div className='social'>
 						<h4 className='social-title'>SNS</h4>
 						<div className='social-container flex justify-center'>
-							<a href="" className='social-link block'>
+							<a href="https://twitter.com/ItokawaG" className='social-link block'>
 								<p className='social-icon '>
 									<img src={TwitterIcon} alt="" className='block' />
 								</p>

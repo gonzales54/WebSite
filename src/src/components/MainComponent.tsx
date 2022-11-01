@@ -7,7 +7,7 @@ const MainComponent = ({workItem}: any) => {
 					<p className='sub-title'>Studying Software-Engineering</p>
 				</div>
 			</section>
-			<section className='about flex justify-center align-items-center container-md'>
+			<section className='about flex justify-center align-items-center container-md' id="about">
 				<div>
 					<h2 className='section-title'>About</h2>
 					<p className='about-content'>
@@ -16,7 +16,7 @@ const MainComponent = ({workItem}: any) => {
 					</p>
 				</div>
 			</section>
-			<section className='work container-lg'>
+			<section className='work container-lg' id="work">
 				<h2 className='section-title'>Work</h2>
 				<ul className='grid' style={{ gridTemplateRows: workItem.length > 3 ? '1fr 1fr' : '1fr' }}>
 					{

@@ -20,13 +20,13 @@ const HeaderComponent = ({ isNavOpen, navOpen }: any) => {
 				<nav className={isNavOpen ? 'nav nav-open' : 'nav'}>
 					<ul className='flex'>
 						<li className='nav-item'>
-							<a href="" className='block nav-link'>Home</a>
+							<a href="/" className='block nav-link'>Home</a>
 						</li>
 						<li className='nav-item'>
-							<a href="" className='block nav-link'>About</a>
+							<a href="#about" className='block nav-link'>About</a>
 						</li>
 						<li className='nav-item'>
-							<a href="" className='block nav-link'>Work</a>
+							<a href="#work" className='block nav-link'>Work</a>
 						</li>
 					</ul>
 				</nav>
