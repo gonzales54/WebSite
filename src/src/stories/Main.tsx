@@ -1,8 +1,8 @@
 import './reset.css'
 
-const Main = () => {
+const Main = ({isNavOpen}: any) => {
 	return (
-		<main className='main'>
+		<main className={isNavOpen ? 'main main-open' : 'main'}>
 			<section className='main-visual flex justify-center align-items-center'>
 				<div>
 					<h2 className='main-title'>Itokawa WebSite</h2>

@@ -16,7 +16,7 @@ const Website = () => {
 	return (
 		<>
 			<Header isNavOpen={isNavOpen} navOpen={navOpen} />
-			<Main />
+			<Main isNavOpen={isNavOpen} />
 			<Footer />
 		</>
 	)
